@@ -1,0 +1,120 @@
+body{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    background-color: #130f17;
+    color: white;
+    /* font-family: "Sofia Sans", sans-serif; */
+    /* font-family: "Fira Sans Condensed", sans-serif; */
+}
+.container{
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1-savchyn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    color:  #8764D2;
+    font-family: "Sofia Sans", sans-serif;
+}
+.p-top{
+    color: var(--E9DFEF, #E9DFEF);
+
+    text-align: left; 
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    padding-left: 80px;
+}
+.mid-block{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.mid-h1{
+    display: flex;
+    align-items: center;
+    
+    font-size: 54px;
+    color:  #8764D2;
+    font-family: "Sofia Sans", sans-serif;
+}
+.mid-p-block{
+    color: var(--E9DFEF, #E9DFEF);
+    width: 1011px;
+    text-align: left; 
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    padding-right: 330px ;
+}
+.img-mid{
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    top: 250px;
+    right: 10px;
+}
+.big-mid{
+    display: flex;
+    justify-content: space-around;
+}
+.bot-block{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+.bot-p-block{
+    color: var(--E9DFEF, #E9DFEF);
+    width: 1011px;
+    text-align: right; 
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    padding-left: 330px ;
+}
+.bot-h1{
+    display: flex;
+    align-items: flex-end;
+    
+    font-size: 54px;
+    color:  #8764D2;
+    font-family: "Sofia Sans", sans-serif;
+}
+
+.big-bot{
+    display: flex;
+    justify-content: space-around;
+    
+}
+span{
+    color: #B6F875;
+    font-family: "Sofia Sans", sans-serif;
+}
+.img-bot{
+    width: 512px;
+    height: 512px;
+    position: absolute;
+    top: 700px;
+    left: 10px;
+}

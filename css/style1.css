@@ -1,0 +1,171 @@
+body{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    background-color: #130f17;
+    color: white;
+    /* font-family: "Sofia Sans", sans-serif; */
+    /* font-family: "Fira Sans Condensed", sans-serif; */
+}
+/* Початок мейну */
+.main{
+    width: 90%;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1_detox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    color:  #8764D2;
+    font-family: "Sofia Sans", sans-serif;
+}
+.detox_mini_text1{
+    color: var(--E9DFEF, #E9DFEF);
+
+    text-align: left; 
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+}
+.span_detox{
+    color: #B6F875;
+    font-family: "Sofia Sans", sans-serif;
+}
+.detox_block{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.detox_mini_block1{
+    font-size: 24px;
+    padding-bottom: 35px;
+}
+.detox_mini_block2{
+    
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.detox_mini_text2{
+    padding-right:  40px;
+    color: var(--E9DFEF, #E9DFEF);
+
+    text-align: right;
+    /* Fira Sans Condensed2 */
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+}
+.first_detox_img{
+    float: left;
+    width: 343px;
+    height: 251px;
+}
+.advice{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 0 5% 0 5%;
+    padding-top: 50px;
+}
+.advices_block{
+    width: 1048px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+h3{
+     color: #D5A8F2;
+     font-size: 40px;
+     font-family: Sofia Sans;
+    
+}
+li p {
+    color: #E9DFEF;
+    font-size: 22px;
+    font-family: "Fira Sans Condensed", sans-serif;
+}
+h3{
+    font-family: "Sofia Sans", sans-serif;
+}
+.advice_img{
+    width: 120px;
+    height: 120px;
+}
+/* Таблиці для виконання */
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    color:  #8764D2;
+    font-family: "Sofia Sans", sans-serif;
+}
+.task_table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.task_table1{
+    width: 1420px;
+}
+table{
+    width: 90%;
+    padding: 0 5% 0 5%;
+    border-spacing: 0;
+    z-index: 4;
+    position: relative;
+  }
+tr{  
+
+    color: #D5A8F2;
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px; 
+  }
+  .short-tr{
+    width: 7%;
+    text-align: center;
+  }
+  .long-tr{
+    width: 60%;
+    padding: 0 0 0 30px ;
+    align-items: flex-start;
+  }
+  th{
+    height: 38px;
+    width: 34px;  
+    border:1px solid #B6F875;
+    background-color: rgba(54, 54, 54);
+  }
+  .table-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 259px;
+    width: 70% ;
+    margin-left: 65px;
+    font-family: "Fira Sans Condensed", sans-serif;
+  }

@@ -1,0 +1,133 @@
+.container{
+    width: 100%;
+    background-color: #130F17;
+}
+h1{
+    padding-top:183px;
+    color:#D5A8F2;
+    text-align: right;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    font-family: "Sofia Sans";
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400; 
+    line-height: normal;
+    letter-spacing: 6.48px;
+  }
+  h2{
+    color: #B6F875;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+    font-family: "Sofia Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 6.48px;
+  }
+  p{
+    color: #E9DFEF;
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    margin-bottom: 40px;
+    z-index: 3;
+    position: relative;
+  }
+  li{
+    color: #E9DFEF;
+    font-family: "Fira Sans Condensed";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.64px;
+    margin-bottom: 10px;
+    z-index: 3;
+    position: relative;
+  }
+  .text_left_box{
+    text-align: left;
+    width: 70%;
+    position: relative;
+  }
+  .text_right_box{
+    text-align: right;
+    width: 70%;
+    position: relative;
+    padding-left: 30%;
+  }
+  main{
+    padding: 0 5% 0 5%;
+    width: 90%;
+  }
+  /*анімаціїїїїїїїїїїїїїїїї*/
+  .element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateX(-120px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%);
+  }
+  .element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateX(120px);
+  }
+  
+  .element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s 1.2s;
+    transform: translateX(0%);
+  }
+
+
+
+.main_h1{
+    font-family: Sofia Sans;
+    font-size: 54px;
+    text-align: center;
+    font-weight: bold;
+    color: #8764D2;
+}
+.philosophers{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.philosophers h1{
+    width: 1010px;
+    color: #D5A8F2;
+    font-size: 40px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+.philosophers section{
+    height: 380px;
+    width: 1010px;
+}
+.philosophers p span{
+    font-family: Sofia Sans;
+    color: #B6F875;
+}
+
+.philosophers img{
+    width: 510px;
+    position: absolute;
+    top: 560px;
+    left: -200px;
+}
+.philosophers_p{
+    font-size: 22px;
+}

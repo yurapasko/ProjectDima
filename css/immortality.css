@@ -1,0 +1,122 @@
+main{
+	padding: 0 5% 0 5%;
+	width: 90%;
+}
+h1{
+	padding-top:183px;
+	color: #8764D2;
+	text-align: center;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+	font-family: "Sofia Sans";
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 6.48px;
+}
+p{
+	color: #E9DFEF;
+	font-family: "Fira Sans Condensed";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 2.64px;
+	margin-bottom: 40px;
+	z-index: 3;
+	position: relative;
+}
+.text_left_box{
+	text-align: left;
+	width: 65%;
+	position: relative;
+}
+h2{
+	color: #D5A8F2;
+	padding-bottom: 30px;
+	padding-top: 60px;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+	font-family: "Sofia Sans";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 6.48px;
+}
+.text_right_box{
+	text-align: right;
+	width: 75%;
+	position: relative;
+	padding-left: 25%;
+}
+.Grob{
+	float: right;
+	padding-top: 200px;
+}
+h3{
+	color: #B6F875;
+	z-index: 3;
+	position: relative;
+	padding-bottom: 30px;
+	padding-top: 80px;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+	font-family: "Sofia Sans";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 6.48px;
+}
+.xrest{
+	float: left;
+	margin: 30px 0 0 5%;
+}
+.elipse7{
+	position: absolute;
+	left: -150px;
+	top: -80px;
+}
+.elipse13{
+	position: absolute;
+	left: 1438px;
+	top: -160px;
+}
+.elipse7s{
+	position: absolute;
+	left: -150px;
+	top: -130px;
+}
+.elipse13s{
+	position: absolute;
+	left: 1438px;
+	top: -60px;
+}
+.green{
+	color: #B6F875;
+	font-weight: 400;
+}
+/*анімаціїїїїїїїїїїїїїїїї*/
+.text_left_box.element-animation {
+  margin: 2rem 0;
+  font-size: 3rem;
+  opacity: 0;
+  transform: translateX(-120px);
+}
+
+.text_left_box.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0%);
+}
+.text_right_box.element-animation {
+  margin: 2rem 0;
+  font-size: 3rem;
+  opacity: 0;
+  transform: translateX(120px);
+}
+
+.text_right_box.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s 1.2s;
+  transform: translateX(0%);
+}

@@ -1,0 +1,21 @@
+main{
+	width: 100%;
+	padding: 0 5% 90px 5%;
+}
+h1{
+	color:#8764D2;
+	text-align: center;
+	padding-bottom: 30px; 
+	padding-top: 184px;
+	font-family: "Sofia Sans";
+	font-size: 54px;
+	padding-right: 	200px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	letter-spacing: 6.48px;
+}
+video{
+	width: 90%;
+	margin: 0 auto;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/clear.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/task.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Sofia+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+      <ul class="menu">
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="help.html">Чи хороші люди від природи?</a></li>
+        <li><a href="immortality.html">Чи хотілиб ви бути безсмертними?</a></li>
+        <li><a href="thebiggestsavchyn.html">Чи потрібно давати обіцянки?</a></li>
+        <li>
+          <a class="open">Дослідження команди</a>
+          <div class="submenu">
+            <a href="plan.html">Планування</a>
+            <a href="inf_detox.html">Цифрова гігієна</a>
+            <a href="clear.html">Ефект чистого листа</a>
+            <a href="video.html">Ділимося досягненнями</a>
+          </div>
+        </li>
+        
+      </ul>
+    </nav>
+        </header>
+        <main>
+            <div class="main_div">
+                <h2 class="">ЕФЕКТ ЧИСТОГО ЛИСТА</h2>
+                <p>Нашому мозку потрібно 23хв, щоби сконцентруватися на задачі або новому матеріалі. 23 хв вам потрібно перетерпіти ефект чистого листа</p>
+                <img src="img/IMG23.png">
+                <div class="right_div">
+                    <h3 class="right element-animation">Як це зробити?</h3>
+                    <p class="right element-animation">Придумайте ритуал підготовки до роботи: декілька постійних дій, які ви будете виконувати кожен раз протягом 23хв.</p>
+                    <p class="right element-animation">Зберіть як конструктор ваш набір дії на 23 хв. Розташуйте трекер на робочому місці так, щоби він потрапляв в поле зору - можна роздрукувати і повісити на стіну - і слідуйте власній інструкції.</p>
+                </div>
+                <h3 class="element-animation">Важливо</h3>
+                <p class="element-animation">Засікати 23 хв на таймер не потрібно: краще заповнити їх справами. Ми пропонуємо працювати без таймера, тому що потім він тільки відволікає: у вас буде мета не погрузитися в матеріал, а досидіти до кінця таймера.</p>
+            </div>
+            <div class="task_arr">
+              <h1 class="element-animation">ТВІЙ ОСОБИСТИЙ ТРЕКЕР</h1>
+                <h3 class="help_h2">Що я роблю</h3>
+                <ul class="todo-list">
+                </ul>
+                <p class="empty-tasks hidden">Всі завдання виконані. Нових завдань немає.</p>   
+                <template id="task-template">
+                  <li class="todo-list-item">
+                    <label>
+                      <input type="checkbox" class="todo-list-input">
+                      <span></span>
+                    </label>
+                  </li>
+                </template>
+                <button class="open-modal">Додати завдання</button>
+                  <div id="modal" class="modal">
+                      <form class="modal-content">
+                          <span class="close-modal">&times;</span>
+                          <label for="textInput" class="textInput1">Введіть завдання:</label>
+                          <input placeholder="лалалалала святік лох не хоче робити цифрову гігієну" class="text-input" type="text" name="text" id="textInput">
+                          <button type="submit" class="add-form-button">Додати завдання</button>
+                      </form>
+                  </div>
+        
+            </div>
+        </main>
+        <footer>
+            <img src="img/pngimg.png">
+            <h3>Соцмережі</h3>
+            <h3>Для користувачів</h3>
+            <p>+380 098 123</p>
+            <p>Inst: your_mozok</p>
+            <p>EN</p>
+            <p>haknumozok@gmail.com</p>
+            <p>Telegram: haknusebe</p>
+            <p>Про сайт</p>
+        </footer>
+    </div>
+    <script src="js/task.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

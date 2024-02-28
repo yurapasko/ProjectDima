@@ -1,0 +1,87 @@
+.main_div{
+	padding: 171px 95px 182px 95px;
+}
+.main_div img{
+	float: left;
+	padding-bottom: 64px;
+}
+p{
+	color: #E9DFEF;
+	font-family: "Fira Sans Condensed";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 2.64px;
+	width: 70%;
+}
+.right{
+	text-align: right;
+	width: 880px;
+}
+.right_div{
+	padding: 92px 0 164px 0;
+	display: flex;
+	justify-content: right;
+	flex-wrap: wrap;
+}
+h2, h1{
+	color: #8764D2;
+	text-align: center;
+	text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+	font-family: "Sofia Sans";
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 6.48px;
+}
+h3{
+	color: #B6F875;
+	font-family: "Sofia Sans";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 4.8px;
+}
+.main_div h2{
+	margin-bottom: 73px;
+}
+.right_div p{
+	padding-bottom: 31px;
+}
+h3{
+	padding-bottom: 13px;
+
+}
+.task_arr{
+	padding: 66px 96px 46px 96px;
+}
+.todo-list-item label{
+	background: #130F17;
+	color: #E9DFEF;
+}
+h1{
+	padding-bottom: 66px;
+}
+/* анімації =(*/
+.element-animation {
+  opacity: 0;
+  transform: translateY(120px);
+}
+
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(0%);
+}
+.right.element-animation {
+  opacity: 0;
+  transform: translateX(120px);
+}
+.right.element-animation.element-show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0%);
+}
